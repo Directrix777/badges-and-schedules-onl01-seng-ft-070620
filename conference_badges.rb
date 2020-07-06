@@ -25,6 +25,6 @@ end
 def printer(names)
   badges = batch_badge_creator(names)
   badges.each do |badge|
-    puts badges
+    puts badge
   end
 end
